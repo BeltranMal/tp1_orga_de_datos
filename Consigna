@@ -1,0 +1,68 @@
+75.06/95.58 Organización de Datos
+Trabajo Práctico 1: Enunciado
+
+El trabajo práctico 1 de la materia se basa en el análisis de datos del registro histórico de consumos de la línea aérea Airways de https://www.kaggle.com/datasets/ghassenkhaled/airways-customer-data.  Los datos incluyen reservas, venta de pasajes y reviews. Datos
+
+Customer_airways_data
+
+Num_passengers: Cantidad de pasajeros que viajaron
+Sales_channel: Canal de venta por el cual fue realizada la reserva.
+Trip_type: Puede ser Round Trip (ida y vuelta), One way (solo ida)  o Circle trip (secuencia de tramos)
+Purchase_lead: Número de días entre el momento de la reserva y el momento del viaje.
+Lenght_of_stay: Número de días en el destino antes del regreso.
+Flight_hour: Horario de partida del vuelo
+Flight_day: Dia de la semana de partida del vuelo
+Route: Destino
+Booking_origin: País desde donde se realizó la reserva.
+Wants_extra_bags: Si el cliente solicitó equipaje extra al hacer la reserva.
+Wants_preferred_seat
+wants_in_flight_meals
+flight_duration
+booking_complete
+
+
+
+Cleaned-reviews
+Reviews: Texto conteniendo el review del usuario
+Rate: Puntaje (de 1 a 10) otorgado
+Date: Fecha
+Country: País de origen.
+Verified: Si el registro fue validado y se puede considerar un review legítimo
+Comments: Texto ingresado por el usuario.
+Objetivo
+
+El objetivo del primer TP es realizar un análisis exploratorio del set de datos. Queremos ver qué cosas podemos descubrir sobre los datos que puedan resultar interesantes. 
+
+
+Requisitos
+
+Los requisitos de la primera entrega son los siguientes:
+
+El análisis debe estar hecho en Python Pandas.
+El análisis debe entregarse en formato pdf, conteniendo el análisis realizado, explicaciones, hipótesis, resultados, y visualizaciones que puedan resultar de interés. 
+Debe informarse también el link a los notebooks / un repositorio Github en donde pueda bajarse el código completo para generar el análisis.
+El trabajo no debe limitarse a analizar cada archivo por separado, se espera que puedan buscar relaciones entre los datos de distintos archivos tratados en forma conjunta.
+El trabajo debe incluir al menos 10 visualizaciones, orientadas a entender mejor los datos y sus relaciones, y al menos una enfocada a mostrar alguna de las conclusiones a la que llegaron. Ésta no puede ser un plot simple, deben incluirse elementos de diseño y trabajarse la estética para que la misma sirva para ser presentada a un público no necesariamente experimentado en el mundo de la aviación.
+
+Evaluación
+
+La evaluación del TP se realizará en base al siguiente criterio:
+
+Originalidad del análisis exploratorio. 
+Calidad del reporte. ¿Está bien escrito? ¿Es claro y preciso? 
+Calidad del análisis exploratorio: qué tipo de preguntas se hacen y de qué forma se responden, ¿es la respuesta clara y concisa con respecto a la pregunta formulada? 
+Calidad de las visualizaciones presentadas.
+¿Tienen todos los ejes su rótulo?
+¿Tiene cada visualización un título?
+¿Es entendible la visualización sin tener que leer la explicación?
+¿El tipo de plot elegido es adecuado para lo que se quiere visualizar?
+¿Es una visualización interesante?
+¿El uso del color es adecuado?
+¿Hay un exceso o falta de elementos visuales en la visualización elegida?
+¿La visualización es consistente con los datos?
+Conclusiones presentadas.
+¿Presenta el grupo un listado de "insights" aprendidos sobre los datos en base al análisis realizado? ¿Es interesante? 
+¿Descubrieron cosas que pueden ser de interés a las empresas de aviación, o a futuros pasajeros en busca de pasajes? 
+
+Criterio de Reentrega
+En caso de que la entrega no esté en condiciones de aprobar, se considerará la posibilidad de realizar una reentrega siempre y cuando el trabajo presentado cumpla con todas las condiciones antes descriptas para la entrega, y solamente se trate de mejorar algún punto que pueda requerir más desarrollo. No se considerarán para reentrega trabajos que hayan sido presentados en forma incompleta. 
